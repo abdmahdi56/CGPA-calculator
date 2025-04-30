@@ -70,8 +70,9 @@ Save results to a file
 Web or GUI version (C++/Python/JavaScript)
 
 Validation for input ranges
+```
 
-👨‍💼 Author
+##👨‍💼 Author
 Abdullah Al Mahdi
 Student, BSc in Computer Science & Engineering
 Leading University
