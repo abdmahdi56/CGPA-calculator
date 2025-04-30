@@ -3,19 +3,19 @@
 int main() {
     int n;
 
-    printf("🎓 Welcome to the CGPA Calculator!\n");
+    printf("Welcome to the CGPA Calculator!\n");
     printf("-----------------------------------\n");
-    printf("📚 How many subjects do you want to calculate CGPA for? ");
+    printf("How many subjects do you want to calculate CGPA for? ");
     scanf("%d", &n);
 
     int mark[n];
     float credit[n];
     float gradesum = 0, creditsum = 0;
 
-    printf("\n✅ Great! Now enter the mark and credit for each subject.\n\n");
+    printf("\n Great! Now enter the mark and credit for each subject.\n\n");
 
     for (int i = 0; i < n; i++) {
-        printf("➡️ Subject %d:\n", i + 1);
+        printf(" Subject %d:\n", i + 1);
         printf("   Enter mark (out of 100): ");
         scanf("%d", &mark[i]);
         printf("   Enter credit (e.g., 3 or 1.5): ");
@@ -45,15 +45,15 @@ int main() {
         else
             gradesum += credit[i] * 0.00;
 
-        printf("   ✅ Data recorded for Subject %d!\n\n", i + 1);
+        printf("    Data recorded for Subject %d!\n\n", i + 1);
     }
 
     float cgpa = gradesum / creditsum;
 
-    printf("📊 Calculating your CGPA...\n");
+    printf(" Calculating your CGPA...\n");
     printf("------------------------------\n");
-    printf("🎉 Your CGPA is: %.2f\n", cgpa);
-    printf("📘 Thank you for using the CGPA Calculator. Keep up the good work!\n");
+    printf(" Your CGPA is: %.2f\n", cgpa);
+    printf(" Thank you for using the CGPA Calculator. \n");
 
     return 0;
 }
