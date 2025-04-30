@@ -76,6 +76,7 @@ Validation for input ranges
 Abdullah Al Mahdi
 Student, BSc in Computer Science & Engineering
 Leading University
+---
 
 📃 License
 This project is open-source and free to use under the MIT License.
